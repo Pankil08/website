@@ -15,12 +15,12 @@ body {
     display: flex;
     background-color: antiquewhite;
     height: 50px;
-    width: 100vw;
+    width: 100%;
     align-items: center;
 }
 
 #headerleft {
-    width: 50vw;
+    width: 50%;
     color: black;
     padding: 12px;
     padding-left: 150px;
