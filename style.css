@@ -1,0 +1,174 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+}
+
+#headerleft {
+    width: 50vw;
+    color: black;
+    padding: 12px;
+    padding-left: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+
+#headerright {
+    font-family: Georgia, serif;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 80px;
+}
+
+#headerright h1 {
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+#headerright h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+}
+
+#midbody img {
+    height: 500px;
+    width: 100%;
+}
+
+#midbody h1 {
+    position: absolute;
+    top: 200px;
+    color: rgb(100, 102, 104);
+    left: 80px;
+}
+
+#box {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    text-align: center;
+}
+
+#lowerpart {
+    width: 100%;
+}
+
+#midbtn {
+    background-color: rgb(10, 1, 1);
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 8px;
+    font-family: serif;
+    font-size: 16px;
+    position: absolute;
+    top: 300px;
+    cursor: pointer;
+    left: 150px;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+#midbtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#lowerbox {
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+#lowerbox h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: math;
+    bottom: 140px;
+    font-weight: 500;
+}
+
+#lowerbox p {
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#lowerbox h2 {
+    margin-top: 15px;
+    font-family: Scriptina;
+}
+
+#container {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 125%;
+    padding: 5px;
+}
+
+#leftcontainer {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+
+#leftcontainer img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#rightcontainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+#rightcontainer>img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#bottom {
+    position: relative;
+    height: 90px;
+    width: 100%;
+    top: 550px;
+    background-color: #000;
+}
